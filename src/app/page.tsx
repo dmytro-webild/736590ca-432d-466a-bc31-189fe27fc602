@@ -87,9 +87,11 @@ export default function LandingPage() {
           tag="Discover"
           tagIcon={Utensils}
           products={[
-            { id: "1", brand: "Tibetan", name: "Signature Momos", price: "$12", rating: 5, reviewCount: "150", imageSrc: "http://img.b2bpic.net/free-photo/caucasian-delicious-food-khinkali-khingal-finely-cooked-served-with-fresh-parsley-red-basilica-leaves_114579-1817.jpg" },
-            { id: "2", brand: "Chinese", name: "Szechwan Noodles", price: "$15", rating: 4, reviewCount: "98", imageSrc: "http://img.b2bpic.net/free-photo/tasty-appetizing-asian-noodle-soup-with-vegetables-served-bowl-closeup_1220-7055.jpg" },
-            { id: "3", brand: "Japanese", name: "Fresh Seafood Roll", price: "$18", rating: 5, reviewCount: "85", imageSrc: "http://img.b2bpic.net/free-photo/sake-maki-rolls-grey-background-with-chopsticks_114579-34484.jpg" }
+            { id: "1", brand: "Tibetan", name: "Signature Momos", price: "₹999", rating: 5, reviewCount: "150", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cqd3D9fBgGMSArQxiq10eCrUgs/uploaded-1777129823694-ak5rh08o.jpg" },
+            { id: "2", brand: "Chinese", name: "Szechwan Noodles", price: "₹1200", rating: 4, reviewCount: "98", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cqd3D9fBgGMSArQxiq10eCrUgs/uploaded-1777129823694-bpcwq2s3.jpg" },
+            { id: "3", brand: "Japanese", name: "Fresh Seafood Roll", price: "₹1500", rating: 5, reviewCount: "85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cqd3D9fBgGMSArQxiq10eCrUgs/uploaded-1777129823694-d5vpqmpb.jpg" },
+            { id: "4", brand: "Fusion", name: "Special Dim Sum", price: "₹850", rating: 5, reviewCount: "110", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cqd3D9fBgGMSArQxiq10eCrUgs/uploaded-1777129823694-8yy7pcup.jpg" },
+            { id: "5", brand: "Japanese", name: "Miso Soup", price: "₹450", rating: 4, reviewCount: "60", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cqd3D9fBgGMSArQxiq10eCrUgs/uploaded-1777129823694-xkhhzl4y.jpg" }
           ]}
           gridVariant="three-columns-all-equal-width"
           animationType="slide-up"
