@@ -38,7 +38,7 @@ export default function LandingPage() {
             { name: "Contact", id: "contact" }
           ]}
           button={{
-            text: "Order Now",            href: "#contact"
+            text: "Order Now", href: "#contact"
           }}
         />
       </div>
@@ -56,9 +56,10 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           mediaItems={[
-            { imageSrc: "http://img.b2bpic.net/free-photo/high-angle-asian-food-plate-with-chopsticks_23-2148382833.jpg", imageAlt: "Freshly prepared steaming momos" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/high-angle-woman-eating-noodles_23-2149706713.jpg", imageAlt: "Hand-pulled Szechwan noodles" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/man-ignoring-woman-while-talking-phone_107420-65720.jpg", imageAlt: "Cozy restaurant dining atmosphere" }
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cqd3D9fBgGMSArQxiq10eCrUgs/uploaded-1777130123711-s91ax7la.jpg", imageAlt: "Freshly prepared steaming momos" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cqd3D9fBgGMSArQxiq10eCrUgs/uploaded-1777130123711-eb4w1e4o.jpg", imageAlt: "Hand-pulled Szechwan noodles" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cqd3D9fBgGMSArQxiq10eCrUgs/uploaded-1777130123711-499grojd.jpg", imageAlt: "Traditional Japanese specialty" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cqd3D9fBgGMSArQxiq10eCrUgs/uploaded-1777130123711-yk7k2nty.jpg", imageAlt: "Cozy restaurant dining atmosphere" }
           ]}
         />
       </div>
